@@ -1,0 +1,39 @@
+{
+    "Applications": [{
+            "name": "MyContract",
+            "id": 1,
+            "Absolute_path_upload_Dir": "C://Users//dell//Documents//test//myContract"
+        },
+        {
+            "name": "MyProject",
+            "id": 2,
+            "Absolute_path_upload_Dir": "C://Users//dell//Documents//test//MyProject"
+        },
+        {
+            "name": "MyHSE",
+            "id": 3,
+            "Absolute_path_upload_Dir": "C://Users//dell//Documents//test//MyHSE"
+        },
+        {
+            "name": "Auth",
+            "id": 4,
+            "Absolute_path_upload_Dir": "C://Users//dell//Documents//test//auth"
+        },
+        {
+            "name": "Test",
+            "id": 5,
+            "Absolute_path_upload_Dir": "C://Users//dell//Documents//test//Test"
+        }
+    ],
+    "settings": {
+        "maxFileUpload": 8,
+        "usersApi": "http://localhost:3001/api/auth/"
+    },
+    "database_settings": {
+        "dbName": "logs",
+        "username": "root",
+        "password": "Taim@1998@@",
+        "host": "localhost",
+        "dialect": "mysql"
+    }
+}
